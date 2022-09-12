@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="63">
+<author>Newell_Gaming</author>
+<version>1.0.0.0</version>
+
+    <title>
+        <en>Wonka Chocolate Factory</en>
+
+    </title>
+    <description>
+        <en><![CDATA[Wonka Chocolate Factory
+Price: 110 000 $
+]]>
+        </en>
+    </description>
+
+<iconFilename>store_wonka.dds</iconFilename>
+
+<multiplayer supported="true"/>
+
+	<brands>
+		<brand name="Newell_Gaming" title="Newell_Gaming" image="img/newellGaming.dds"/>
+	</brands>
+	
+	<newcategory name="Newell_Gaming" title="Newell_Gaming" type="OBJECT" img="img/brand_newellGaming.dds" />
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua" />
+    </extraSourceFiles>
+
+<storeItems>
+	<storeItem xmlFilename="chocolateProduction.xml"/>
+	<storeItem xmlFilename="chocolatePallet.xml"/>
+</storeItems>
+	<fillTypes filename="addFilltypes.xml" />
+</modDesc>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fillTypes.xsd">
+
+	<fillTypes>
+<!-- Chocolate Milk						                                                                                               -->	
+        <fillType name="CHOCOLATE_MILK" title="Chocolate Milk" showOnPriceTable="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter=".90" maxPhysicalSurfaceAngle="0" />
+            <economy pricePerLiter=".6" />
+            <image      hud     ="hud_chocolateMilk.dds" />
+			<pallet     filename="chocolatePallet.xml" />			
+        </fillType>		
+
+	</fillTypes>
+
+    <fillTypeCategories>
+		<fillTypeCategory name="DBPRODUCTS">CHOCOLATE_MILK</fillTypeCategory>
+		<fillTypeCategory name="PRODUCT">CHOCOLATE_MILK</fillTypeCategory>
+		<fillTypeCategory name="BULK" >CHOCOLATE_MILK</fillTypeCategory>
+		<fillTypeCategory name="SHOVEL" >CHOCOLATE_MILK</fillTypeCategory>
+		<fillTypeCategory name="TRAINWAGON" >CHOCOLATE_MILK</fillTypeCategory>
+    </fillTypeCategories>
+	
+	
+    <fillTypeSounds>
+		<fillTypeSound fillTypes="CHOCOLATE_MILK">
+            <sound template="DEFAULT_SILO_FILL"/>
+        </fillTypeSound>
+    </fillTypeSounds>
+
+
+
+</map>
